@@ -1,0 +1,27 @@
+Basic Struturing:
+    ->HTML and css
+
+    -> Canvas API(Browser) 
+        HTML element to perform drawing graphics
+        1. TOOL => Api to draw graphics
+        2. strokeStyle => color
+        3. lineWidth => thickness
+        4. tool.beginPath() => sets a new Path for a new graphic 
+        5. tool.moveTO(x1,y1) => defines the start point of the graphic (x,y)
+        6. tool.lineTo(x2,y2) => defines the end point of the graphic till (x2,y2);
+        7. tool.stroke() => fills with color
+
+    -> mouse ke hisaab se path define krna hai (mouseListener
+    
+    -> socket.io  -? realtime Dataflow  
+
+    => npm init => (enter)
+
+
+    install express and socket.io
+    server -> mouseListener
+    install socket in frontend
+
+    (install nodemon for auto restart)
+
+    for data to and fro send data from frontend to server and then from server to frontend again(for other computers)
