@@ -6,7 +6,7 @@ const app = express(); //initializing the app and server ready
 
 app.use(express.static("public")) // whenever connects to server this will route to static filess(displaying index.html)
 
-let port = 3000;
+let port = process.env.PORT || 3000; //TO be used when deploying
 
 let server = app.listen(port, () => {
     console.log("listening to port " + port);
